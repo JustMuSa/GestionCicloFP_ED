@@ -44,6 +44,8 @@ public class GestionCicloFP {
     public static void main(String[] args) {
         GestionCicloFP gestion = new GestionCicloFP();
 
+        System.out.println("Agregando todo...");
+        
         gestion.agregarEstudiante("Alicia", 1, 20);
         gestion.agregarEstudiante("Roberto", 2, 22);
 
