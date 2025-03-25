@@ -55,6 +55,8 @@ public class GestionCicloFP {
         gestion.matricular_estudiante(1, "DAW");
         gestion.matricular_estudiante(2, "ASIR");
 
+        System.out.println("Ciclos: ");
+        
         gestion.mostrar_ciclos();
     }
 }
